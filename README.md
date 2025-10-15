@@ -62,5 +62,5 @@ Après avoir exécuté votre script de prédiction (`gpred.py`), vous pouvez com
 Un script Python est fourni pour comparer les positions des gènes (`predict_genes.csv`) avec `prodigal.csv` et `position.csv` :
 
 ```bash
-python3 gpred/compare_genes.py
+python3 gpred/comparaison.py
 ```
