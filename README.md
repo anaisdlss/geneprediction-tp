@@ -51,3 +51,16 @@ Les paramètres optionnels sont :
 ## Résultats
 - `predict_genes.csv` : positions des gènes prédites par votre script
 - `genes.fna` : séquences des gènes prédites
+
+---
+
+## Comparaison des positions de gènes
+
+Après avoir exécuté votre script de prédiction (`gpred.py`), vous pouvez comparer vos résultats avec ceux de **Prodigal** et des positions expérimentales.
+
+### Script de comparaison
+Un script Python est fourni pour comparer les positions des gènes (`predict_genes.csv`) avec `prodigal.csv` et `position.csv` :
+
+```bash
+python3 gpred/compare_genes.py
+```
