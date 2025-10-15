@@ -1,3 +1,7 @@
 __py_cache__
 *.pyc
 .coverage
+
+# resultats
+predict_genes.csv
+genes.fna
