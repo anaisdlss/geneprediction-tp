@@ -68,10 +68,12 @@ Optional parameters:
 
 ## Comparing Predicted Genes with Reference Data
 
-Après avoir exécuté votre script de prédiction (`gpred.py`), vous pouvez comparer vos résultats avec ceux de **Prodigal** et des positions expérimentales.
+After generating your predicted gene list using gpred.py, you can evaluate the accuracy by comparing:
+- your predictions (predict_genes.csv)
+- Prodigal predictions (prodigal.csv)
+- experimentally validated positions (position.csv)
 
-### Script de comparaison
-Un script Python est fourni pour comparer les positions des gènes (`predict_genes.csv`) avec `prodigal.csv` et `position.csv` :
+### Run the comparison script
 
 ```bash
 python3 gpred/comparaison.py
